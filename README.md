@@ -6,8 +6,7 @@
 - **Vulnerability Type:** Stored Cross-Site Scripting (XSS)
 - **Vulnerability Location:** Admin Panel - "Add New User" functionality
 - **Impact:** High. An authenticated administrator can inject malicious JavaScript code into the application. This code executes in the browser of any other administrator viewing the user list, potentially leading to session hijacking, data theft, or administrative actions being performed on behalf of the victim.
-- **CVE/CWE:**
-  - **CWE-79:** Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+- **CWE-79:** Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
 
 ## 2. Vulnerability Description 🧐
 
